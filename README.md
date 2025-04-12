@@ -57,6 +57,9 @@ terraform apply -var="telegram_bot_token=YOUR_BOT_TOKEN"
 
 ## 📸 Screenshots
 
-> Add your architecture.png, group-demo.png, and private-demo.png under `assets/`
+> ![Architecture Diagram](./assets/architecture.png)
+![Group Chat](./assets/group-demo.png)
+![Private Chat](./assets/private-demo.png)
+
 
 ---
