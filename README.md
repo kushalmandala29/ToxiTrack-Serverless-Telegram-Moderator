@@ -57,9 +57,21 @@ terraform apply -var="telegram_bot_token=YOUR_BOT_TOKEN"
 
 ## 📸 Screenshots
 
-> ![Architecture Diagram](./assets/architecture.png)
-![Group Chat](./assets/group-demo.png)
-![Private Chat](./assets/private-demo.png)
-
+### 🧩 Architecture Overview  
+![Architecture Diagram](./assets/architecture.png)  
+*The high-level architecture of ToxiTrack — messages flow from Telegram ➜ API Gateway ➜ Lambda ➜ Sentiment Analysis ➜ Storage & Notification. All components are serverless and auto-scalable.*
 
 ---
+
+### 👥 Group Chat Moderation  
+![Group Chat](./assets/group-demo.png)  
+*This screenshot shows the bot actively monitoring a group chat. Toxic messages are flagged, and the `/review` command allows moderators to view flagged users and take action instantly.*
+
+---
+
+### 🔒 Private Chat Moderation  
+![Private Chat](./assets/private-demo.png)  
+*ToxiTrack also works in private Telegram chats. Here, a user's message was flagged based on sentiment analysis. The admin is able to view flagged history even in one-on-one conversations.*
+
+---
+
