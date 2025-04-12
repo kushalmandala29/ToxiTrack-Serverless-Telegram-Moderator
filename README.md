@@ -18,9 +18,7 @@ git clone https://github.com/your-username/toxiTrack-telegram-moderator.git
 cd toxiTrack-telegram-moderator/terraform
 ```
 
-### 2. Prepare Lambda Code
-
-Ensure your zipped Lambda is placed at `terraform/lambda/messageProcessor.zip`
+### 2. open Lambda Code folder
 
 ```bash
 cd ../lambda-code
