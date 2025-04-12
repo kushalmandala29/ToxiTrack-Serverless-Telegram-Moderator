@@ -24,7 +24,7 @@ Ensure your zipped Lambda is placed at `terraform/lambda/messageProcessor.zip`
 
 ```bash
 cd ../lambda-code
-zip ../terraform/lambda/messageProcessor.zip messageProcessor.py
+
 ```
 
 ### 3. Deploy Infrastructure
